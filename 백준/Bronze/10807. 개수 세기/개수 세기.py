@@ -1,9 +1,6 @@
 N = int(input())
-
-n = list(map(int, input().split()))
-
+A = list(map(int, input().split()))
 v = int(input())
 
-res = n.count(v)
-print(res)
+print(A.count(v))
 
